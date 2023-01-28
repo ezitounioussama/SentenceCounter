@@ -1,0 +1,25 @@
+Variables
+sentence = String, sentenceLength = Number(Int), word = Number(Int), i = Number(Int) 
+Constantes
+Vowels = String ["a", "e", "i", "o", "u"] ,
+
+
+Start
+
+Write('start entering the sentence you want to calc' , sentence)
+
+sentence = sentence.toLowerCase();
+word = sentence.split(' ').length;
+for (i = 0; i < sentence.length; i++) {
+  sentenceLength++;
+  if (Voyels.includes(sentence[i])) {
+    voyelsCount++;
+  }
+};
+
+Read('YOUR SENTENCE : ', sentenceLength)
+Read('YOUR SENTENCE LENGTH : ', sentenceLength)
+Read('YOUR SENTENCE WORDS LENGTH : ', word)
+Read('YOUR SENTENCE VOWELS LENGTH : ', voyelsCount)
+
+END 
